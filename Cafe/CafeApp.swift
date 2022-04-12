@@ -8,10 +8,11 @@
 import SwiftUI
 
 @main
-struct CafeApp: App {
+struct CafeApp: App {   // AppDelegate, SceneDelegate 역할
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MainTabView()
+                .accentColor(.green)
         }
     }
 }

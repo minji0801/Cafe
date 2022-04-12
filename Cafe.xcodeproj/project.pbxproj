@@ -8,17 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		A5DEBDC728055B20009B4B8E /* CafeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5DEBDC628055B20009B4B8E /* CafeApp.swift */; };
-		A5DEBDC928055B20009B4B8E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5DEBDC828055B20009B4B8E /* ContentView.swift */; };
+		A5DEBDC928055B20009B4B8E /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5DEBDC828055B20009B4B8E /* MainTabView.swift */; };
 		A5DEBDCB28055B21009B4B8E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5DEBDCA28055B21009B4B8E /* Assets.xcassets */; };
 		A5DEBDCE28055B21009B4B8E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5DEBDCD28055B21009B4B8E /* Preview Assets.xcassets */; };
+		A5DEBDD528055EF3009B4B8E /* Tab.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5DEBDD428055EF3009B4B8E /* Tab.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		A5DEBDC328055B20009B4B8E /* Cafe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cafe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5DEBDC628055B20009B4B8E /* CafeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CafeApp.swift; sourceTree = "<group>"; };
-		A5DEBDC828055B20009B4B8E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A5DEBDC828055B20009B4B8E /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
 		A5DEBDCA28055B21009B4B8E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A5DEBDCD28055B21009B4B8E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A5DEBDD428055EF3009B4B8E /* Tab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tab.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +54,8 @@
 			isa = PBXGroup;
 			children = (
 				A5DEBDC628055B20009B4B8E /* CafeApp.swift */,
-				A5DEBDC828055B20009B4B8E /* ContentView.swift */,
+				A5DEBDC828055B20009B4B8E /* MainTabView.swift */,
+				A5DEBDD428055EF3009B4B8E /* Tab.swift */,
 				A5DEBDCA28055B21009B4B8E /* Assets.xcassets */,
 				A5DEBDCC28055B21009B4B8E /* Preview Content */,
 			);
@@ -137,7 +140,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A5DEBDC928055B20009B4B8E /* ContentView.swift in Sources */,
+				A5DEBDD528055EF3009B4B8E /* Tab.swift in Sources */,
+				A5DEBDC928055B20009B4B8E /* MainTabView.swift in Sources */,
 				A5DEBDC728055B20009B4B8E /* CafeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
