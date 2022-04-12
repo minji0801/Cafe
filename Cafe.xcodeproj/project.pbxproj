@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A57EB1C12805BDEB00F8DB37 /* MenuSuggestionSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57EB1C02805BDEB00F8DB37 /* MenuSuggestionSectionView.swift */; };
+		A57EB1C32805BE5600F8DB37 /* CoffeeMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57EB1C22805BE5600F8DB37 /* CoffeeMenu.swift */; };
+		A57EB1C52805C14B00F8DB37 /* EventsSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57EB1C42805C14B00F8DB37 /* EventsSectionView.swift */; };
+		A57EB1C72805C18600F8DB37 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57EB1C62805C18600F8DB37 /* Event.swift */; };
 		A5DEBDC728055B20009B4B8E /* CafeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5DEBDC628055B20009B4B8E /* CafeApp.swift */; };
 		A5DEBDC928055B20009B4B8E /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5DEBDC828055B20009B4B8E /* MainTabView.swift */; };
 		A5DEBDCB28055B21009B4B8E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5DEBDCA28055B21009B4B8E /* Assets.xcassets */; };
@@ -15,6 +19,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A57EB1C02805BDEB00F8DB37 /* MenuSuggestionSectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuSuggestionSectionView.swift; sourceTree = "<group>"; };
+		A57EB1C22805BE5600F8DB37 /* CoffeeMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeMenu.swift; sourceTree = "<group>"; };
+		A57EB1C42805C14B00F8DB37 /* EventsSectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsSectionView.swift; sourceTree = "<group>"; };
+		A57EB1C62805C18600F8DB37 /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
 		A5DEBDC328055B20009B4B8E /* Cafe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cafe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5DEBDC628055B20009B4B8E /* CafeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CafeApp.swift; sourceTree = "<group>"; };
 		A5DEBDC828055B20009B4B8E /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
@@ -34,6 +42,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A57EB1BE2805BDD400F8DB37 /* Tab */ = {
+			isa = PBXGroup;
+			children = (
+				A5DEBDC828055B20009B4B8E /* MainTabView.swift */,
+				A5DEBDD428055EF3009B4B8E /* Tab.swift */,
+			);
+			path = Tab;
+			sourceTree = "<group>";
+		};
+		A57EB1BF2805BDDA00F8DB37 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				A57EB1BE2805BDD400F8DB37 /* Tab */,
+				A57EB1C02805BDEB00F8DB37 /* MenuSuggestionSectionView.swift */,
+				A57EB1C42805C14B00F8DB37 /* EventsSectionView.swift */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
 		A5DEBDBA28055B20009B4B8E = {
 			isa = PBXGroup;
 			children = (
@@ -54,10 +81,11 @@
 			isa = PBXGroup;
 			children = (
 				A5DEBDC628055B20009B4B8E /* CafeApp.swift */,
-				A5DEBDC828055B20009B4B8E /* MainTabView.swift */,
-				A5DEBDD428055EF3009B4B8E /* Tab.swift */,
+				A57EB1C22805BE5600F8DB37 /* CoffeeMenu.swift */,
+				A57EB1BF2805BDDA00F8DB37 /* Scenes */,
 				A5DEBDCA28055B21009B4B8E /* Assets.xcassets */,
 				A5DEBDCC28055B21009B4B8E /* Preview Content */,
+				A57EB1C62805C18600F8DB37 /* Event.swift */,
 			);
 			path = Cafe;
 			sourceTree = "<group>";
@@ -141,8 +169,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				A5DEBDD528055EF3009B4B8E /* Tab.swift in Sources */,
+				A57EB1C52805C14B00F8DB37 /* EventsSectionView.swift in Sources */,
 				A5DEBDC928055B20009B4B8E /* MainTabView.swift in Sources */,
+				A57EB1C32805BE5600F8DB37 /* CoffeeMenu.swift in Sources */,
 				A5DEBDC728055B20009B4B8E /* CafeApp.swift in Sources */,
+				A57EB1C72805C18600F8DB37 /* Event.swift in Sources */,
+				A57EB1C12805BDEB00F8DB37 /* MenuSuggestionSectionView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
