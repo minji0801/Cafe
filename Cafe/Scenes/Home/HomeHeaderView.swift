@@ -17,6 +17,7 @@ struct HomeHeaderView: View {
                     """)
                 .font(.largeTitle)
                 .frame(maxWidth: .infinity, alignment: .leading)
+                .fixedSize(horizontal: false, vertical: true)
                 Button(action: {}) {
                     Image(systemName: "arrow.2.circlepath")
                 }
