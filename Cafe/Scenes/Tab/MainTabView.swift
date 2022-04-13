@@ -10,7 +10,7 @@ import SwiftUI
 struct MainTabView: View {
     var body: some View {
         TabView {
-            Text("Home")
+            HomeView()
                 .tabItem {
                     Tab.home.imageItem
                     Tab.home.textItem
@@ -24,11 +24,11 @@ struct MainTabView: View {
     }
 }
 
-//struct MainTabView_Previews: PreviewProvider {
-//    static var previews: some View {
-//        MainTabView()
-//    }
-//}
+struct MainTabView_Previews: PreviewProvider {
+    static var previews: some View {
+        MainTabView()
+    }
+}
 
 // HStack: 한 번에 표시되어도 퍼포먼스에 크게 문제가 없는 화면을 그려야 할 때 추천!
 struct SampleHStack: View {
@@ -112,8 +112,8 @@ struct SampleListView: View {
     }
 }
 
-struct SampleListView_Previews: PreviewProvider {
-    static var previews: some View {
-        SampleListView()
-    }
-}
+//struct SampleListView_Previews: PreviewProvider {
+//    static var previews: some View {
+//        SampleListView()
+//    }
+//}

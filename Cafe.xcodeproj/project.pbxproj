@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A555EBF828066BAD0070F4EC /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A555EBF728066BAD0070F4EC /* HomeView.swift */; };
+		A555EBFA28066C660070F4EC /* HomeHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A555EBF928066C660070F4EC /* HomeHeaderView.swift */; };
+		A555EBFD28066EC80070F4EC /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = A555EBFC28066EC80070F4EC /* User.swift */; };
 		A57EB1C12805BDEB00F8DB37 /* MenuSuggestionSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57EB1C02805BDEB00F8DB37 /* MenuSuggestionSectionView.swift */; };
 		A57EB1C32805BE5600F8DB37 /* CoffeeMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57EB1C22805BE5600F8DB37 /* CoffeeMenu.swift */; };
 		A57EB1C52805C14B00F8DB37 /* EventsSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57EB1C42805C14B00F8DB37 /* EventsSectionView.swift */; };
@@ -19,6 +22,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A555EBF728066BAD0070F4EC /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		A555EBF928066C660070F4EC /* HomeHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeHeaderView.swift; sourceTree = "<group>"; };
+		A555EBFC28066EC80070F4EC /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		A57EB1C02805BDEB00F8DB37 /* MenuSuggestionSectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuSuggestionSectionView.swift; sourceTree = "<group>"; };
 		A57EB1C22805BE5600F8DB37 /* CoffeeMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeMenu.swift; sourceTree = "<group>"; };
 		A57EB1C42805C14B00F8DB37 /* EventsSectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsSectionView.swift; sourceTree = "<group>"; };
@@ -42,6 +48,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A555EBFB28066C6A0070F4EC /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				A555EBF728066BAD0070F4EC /* HomeView.swift */,
+				A555EBF928066C660070F4EC /* HomeHeaderView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
 		A57EB1BE2805BDD400F8DB37 /* Tab */ = {
 			isa = PBXGroup;
 			children = (
@@ -57,6 +72,7 @@
 				A57EB1BE2805BDD400F8DB37 /* Tab */,
 				A57EB1C02805BDEB00F8DB37 /* MenuSuggestionSectionView.swift */,
 				A57EB1C42805C14B00F8DB37 /* EventsSectionView.swift */,
+				A555EBFB28066C6A0070F4EC /* Home */,
 			);
 			path = Scenes;
 			sourceTree = "<group>";
@@ -82,10 +98,11 @@
 			children = (
 				A5DEBDC628055B20009B4B8E /* CafeApp.swift */,
 				A57EB1C22805BE5600F8DB37 /* CoffeeMenu.swift */,
+				A57EB1C62805C18600F8DB37 /* Event.swift */,
+				A555EBFC28066EC80070F4EC /* User.swift */,
 				A57EB1BF2805BDDA00F8DB37 /* Scenes */,
 				A5DEBDCA28055B21009B4B8E /* Assets.xcassets */,
 				A5DEBDCC28055B21009B4B8E /* Preview Content */,
-				A57EB1C62805C18600F8DB37 /* Event.swift */,
 			);
 			path = Cafe;
 			sourceTree = "<group>";
@@ -171,9 +188,12 @@
 				A5DEBDD528055EF3009B4B8E /* Tab.swift in Sources */,
 				A57EB1C52805C14B00F8DB37 /* EventsSectionView.swift in Sources */,
 				A5DEBDC928055B20009B4B8E /* MainTabView.swift in Sources */,
+				A555EBFA28066C660070F4EC /* HomeHeaderView.swift in Sources */,
 				A57EB1C32805BE5600F8DB37 /* CoffeeMenu.swift in Sources */,
 				A5DEBDC728055B20009B4B8E /* CafeApp.swift in Sources */,
+				A555EBF828066BAD0070F4EC /* HomeView.swift in Sources */,
 				A57EB1C72805C18600F8DB37 /* Event.swift in Sources */,
+				A555EBFD28066EC80070F4EC /* User.swift in Sources */,
 				A57EB1C12805BDEB00F8DB37 /* MenuSuggestionSectionView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
